@@ -1,2 +1,3 @@
 # chaser-game
-My final project for CMSI 185
+
+*You are a resistence fighter being chased by the evil regime* Say something about powerups and health.
