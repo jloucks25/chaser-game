@@ -132,16 +132,16 @@ function setup() {
 
 function draw() {
   background(backgroundImage);
-  highScore.textContent = Math.floor(millis() / 1000);
+  highScore.textContent = Math.floor(millis()/ 100);;
   player.render();
   player.move({ x: mouseX, y: mouseY });
   enemies.forEach(enemy => {
     enemy.render();
     checkForDamage(enemy, player);
-    enemy.move(enemy || player);
+    enemy.move(enemy, player);
   });
   adjustSprites();
-  if (progressBar.value === 0) {
+  if (progressBar.value == 0) {
     gameOver.textContent = 'Game Over! Try Again!';
     noLoop();
   }
