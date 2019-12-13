@@ -10,4 +10,6 @@ At the start of each game you will be granted 100 units of health.
 
 You will be granted one Power-Up per game at the click of the space bar.
 
+Click the mousepad to temporarily distract the predators with bait!
+
 Good Luck!!
